@@ -7,17 +7,28 @@
     <link href="styles.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="screen">
-        <h2>Shopping List</h2>
-        <div class="listBox"> 
-            <ul  class="itemList">
-                               
-            </ul>                          
-        </div>   
-        <form><input class="itemForm" type="text"></form>
-        <button class="plusBtn">➕</button>       
-    </div>
+    <section class="list">
+        <header class="header">Shopping List</header>
+        <ul class="items">
+            <li class="item__row">
+                <div class="item">
+                    <span class="item__name">Egg</span>
+                    <button class="item__delete">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </div>
+            </li>
+        </ul>
+        <footer  class="footer">
+            <input type="text" class="footer__input">
+            <button class="footer__button">
+                <i class="fas fa-plus"></i>
+            </button>
+        </footer>
+    </section>
     <script src="shoppingList.js"></script>
 </body>
+
 </html>
