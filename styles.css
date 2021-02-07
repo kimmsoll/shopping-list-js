@@ -64,13 +64,6 @@ body {
   transform: scale(1.1);
 }
 
-.item__divider {
-  width: 90%;
-  height: 1px;
-  background-color: rgba(211, 211, 211, 0.548);
-  margin: auto;
-}
-
 .footer {
   background: radial-gradient(
     circle,
