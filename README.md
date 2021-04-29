@@ -1,2 +1,2 @@
 # Shopping List
-to buy list
+HTML & CSS 로 만든 살 것 목록
